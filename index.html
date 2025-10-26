@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista zadań ToDo</h1>
+        
+        <input type="text" id="searchInput" placeholder="Wyszukaj zadanie (min. 2 znaki)">
+       
+        <ul id="taskList">
+        </ul>
+        
+        <input type="text" id="newTaskInput" placeholder="Nowe zadanie (3-255 znaków)">
+        <input type="datetime-local" id="newTaskDate">
+        <button id="addTaskBtn">Dodaj zadanie</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#searchInput {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #4a90e2;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#taskList li {
+    background-color: rgba(74, 144, 226, 0.8);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: #d0d0d0;
+}
+
+.task-date {
+    margin-left: 10px;
+    color: #d0d0d0;
+    cursor: pointer;
+}
+
+.edit-date-input {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #4a90e2;
+    border-radius: 3px;
+}
+
+.delete-btn {
+    background-color: #9b59b6;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #8e44ad;
+}
+
+#newTaskInput, #newTaskDate {
+    width: 45%;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #4a90e2;
+}
+
+#addTaskBtn {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#addTaskBtn:hover {
+    background-color: #357abd;
+}
+
+.highlight {
+    background-color: #9b59b6;
+    color: #ffffff;
+}
