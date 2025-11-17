@@ -1,0 +1,67 @@
+body {
+margin: 0;
+padding: 0;
+background: #111;
+color: #eee;
+font-family: sans-serif;
+}
+
+#controls {
+display: flex;
+align-items: center;
+gap: 15px;
+padding: 10px;
+background: #222;
+}
+
+button {
+padding: 10px 20px;
+background: #444;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+#coords {
+font-size: 14px;
+color: #9ee;
+}
+
+#map {
+width: 100%;
+height: 350px;
+}
+
+#captureCanvas {
+display: none;
+}
+
+#puzzle-area {
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+#puzzle-source, #puzzle-target {
+width: 350px;
+height: 350px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+background: #222;
+}
+
+.piece {
+width: 87.5px;
+height: 87.5px;
+background-size: 350px 350px;
+cursor: grab;
+border: 1px solid #000;
+}
+
+.slot {
+width: 87.5px;
+height: 87.5px;
+border: 1px dashed #666;
+background: #000;
+}

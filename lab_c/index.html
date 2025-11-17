@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mapa Puzzle</title>
+<link rel="stylesheet" href="leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="controls">
+<button id="geoBtn">Moja lokalizacja</button>
+<button id="downloadBtn">Pobierz mapę</button>
+<button id="shuffleBtn">Rozmieść ponownie</button>
+<div id="coords">Współrzędne: -</div>
+</div>
+
+<div id="map"></div>
+
+<canvas id="captureCanvas"></canvas>
+
+<div id="puzzle-area">
+<div id="puzzle-source"></div>
+<div id="puzzle-target"></div>
+</div>
+
+<script src="leaflet/leaflet.js"></script>
+<script src="leaflet/leaflet-providers.js"></script>
+<script src="leaflet/leaflet-image.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
